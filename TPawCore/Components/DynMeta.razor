@@ -1,0 +1,59 @@
+@if (!string.IsNullOrEmpty(PreviousPage))
+{
+    <PageTitle>@Title - @PreviousPage - @GlobalConsts.SITE_NAME</PageTitle>
+}
+else
+{
+    <PageTitle>@Title - @GlobalConsts.SITE_NAME</PageTitle>
+}
+
+<HeadContent>
+    <meta content="article" property="og:type" data-rh="true">
+    @if (!string.IsNullOrEmpty(Image))
+    {
+        <meta content="@Image" property="og:image" data-rh="true">
+    }
+    <meta Title="title" content="@Title - @GlobalConsts.SITE_NAME" property="og:title" data-rh="true">
+</HeadContent>
+<div>
+    @if (Heading)
+    {
+        <h2>@Title</h2>
+    }
+    @if (!string.IsNullOrEmpty(Authors))
+    {
+        <sup>By @Authors</sup>
+    }
+</div>
+
+@code {
+
+    /// <summary>
+    /// The Title of the current page.
+    /// </summary>
+    [Parameter, EditorRequired]
+    public string? Title { get; set; } = string.Empty;
+
+    /// <summary>
+    /// Determines whether or not to display the heading.
+    /// </summary>
+    [Parameter]
+    public bool Heading { get; set; } = true;
+
+    [Parameter]
+    public string Authors { get; set; } = string.Empty;
+
+    /// <summary>
+    /// The image URL to use for Open Graph meta tags.
+    /// </summary>
+    [Parameter]
+    public string Image { get; set; } = string.Empty;
+
+    /// <summary>
+    /// The Title of the previous page visited by the user.
+    /// </summary>
+    [Parameter]
+    public string? PreviousPage { get; set; } = string.Empty;
+
+}
+

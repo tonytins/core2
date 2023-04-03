@@ -1,7 +1,7 @@
 using Markdig;
 using Microsoft.AspNetCore.Components;
 
-namespace CaseyUniverse.DOC;
+namespace Core;
 
 public static class SiteHelper
 {

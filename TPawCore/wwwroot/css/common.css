@@ -1,18 +1,15 @@
-@font-face {
-    font-family: 'Ubuntu';
-    src: url('ubuntu.ttf');
-}
-
-
 body {
-    font-family: 'Ubuntu', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Verdana", Geneva, sans-serif;
+    font-size: 0.938em;
 }
 
 .page {
     margin: auto;
-    width: 1024px;
+    width: 90%;
     padding: 10px;
     position: relative;
+    min-width: 800px;
+    max-width: 1024px;
 }
 
 .container {
@@ -63,6 +60,11 @@ footer {
 
 /* Menu Bar */
 /* Add a black background color to the top navigation */
+header {
+    min-width: 800px;
+    max-width: 1024px;
+}
+
 .topnav {
     width: 100%;
     background-color: #0078A4;

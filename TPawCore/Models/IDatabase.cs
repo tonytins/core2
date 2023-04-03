@@ -1,4 +1,4 @@
-﻿namespace TPawCore.Models;
+﻿namespace Core.Models;
 
 public interface IDatabase
 {

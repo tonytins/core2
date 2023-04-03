@@ -1,0 +1,24 @@
+﻿body {
+    background-color: #eef0f1;
+}
+
+a {
+    color: darkblue;
+}
+
+.container h1, h2, h3, h4 {
+    color: #F87F11;
+}
+
+html:not([data-scroll='0']) header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    /* This box-shadow will help sell the floating effect */
+    padding-bottom: 2px;
+}
+
+html:not([data-scroll='0']) .topnav {
+    /* This box-shadow will help sell the floating effect */
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+}

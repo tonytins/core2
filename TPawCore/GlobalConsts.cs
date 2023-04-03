@@ -1,4 +1,4 @@
-﻿namespace TPawCore;
+﻿namespace Core;
 
 public struct GlobalConsts
 {

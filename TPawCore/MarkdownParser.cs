@@ -5,7 +5,7 @@ using YamlDotNet.Serialization;
 using Markdig.Syntax;
 using Microsoft.AspNetCore.Components;
 
-namespace TPawCore;
+namespace Core;
 
 public static class MarkdownParser
 {

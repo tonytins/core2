@@ -1,7 +1,7 @@
 ﻿using Ganss.Xss;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using TPawCore;
+using Core;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 

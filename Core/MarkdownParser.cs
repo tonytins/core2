@@ -1,4 +1,3 @@
-using System;
 using Markdig;
 using Markdig.Extensions.Yaml;
 using YamlDotNet.Serialization;

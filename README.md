@@ -1,26 +1,27 @@
-# TPaw Core 3
+# Core 2
 
-TPaw Core 3 is a Blazor WebAssembly template that is based on the Casey Universe D.O.C. codebase. This template shares a similar design language to previous versions of Core, but it is incompatible with them.
+Core 2 is a Blazor WebAssembly template that is based on the Casey Universe D.O.C. codebase. This template shares a similar design language to previous versions of Core, but it is incompatible with them.
 
 ## Features
 
 * Blazor WebAssembly-based template
 * Easy to use and customize
+* Customizable dark mode
 * FontAwesome support and component included
 * DynMeta component for changing header titles, descriptions, and images
 
 ## Installation
 
-To install TPaw Core 3, follow these steps:
+To install Core 2, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/tonytins/tpawcore.git`
-2. Navigate to the `tpawcore` directory: `cd tpawcore`
+1. Clone this repository: `git clone https://github.com/tonytins/core2.git`
+2. Navigate to the `core2` directory: `cd core2`
 3. Build the project: `dotnet build`
 4. Run the project: `dotnet run`
 
 ## Usage
 
-TPaw Core 3 is easy to use and customize. Simply follow the installation instructions above to get started. Once the project is up and running, you can customize the template to suit your needs.
+Core 2 is easy to use and customize. Simply follow the installation instructions above to get started. Once the project is up and running, you can customize the template to suit your needs.
 
 ## Contributing
 

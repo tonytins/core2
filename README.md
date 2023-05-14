@@ -1,14 +1,12 @@
 # Core 2
 
-Core 2 is a Blazor WebAssembly template that is based on the Casey Universe D.O.C. codebase. This template shares a similar design language to previous versions of Core, but it is incompatible with them.
+Core 2 is a Blazor WebAssembly template that is based on the Casey Universe D.O.C. codebase. While this template is a fork of it, Core uses a more streamlined API that is currently incompatible with its predecessor.
 
 ## Features
 
-* Blazor WebAssembly-based template
-* Easy to use and customize
 * Customizable dark mode
 * FontAwesome support and component included
-* DynMeta component for changing header titles, descriptions, and images
+* Streamlined metadata support through ``DynMeta``
 
 ## Installation
 
@@ -19,9 +17,9 @@ To install Core 2, follow these steps:
 3. Build the project: `dotnet build`
 4. Run the project: `dotnet run`
 
-## Usage
+## To-do
 
-Core 2 is easy to use and customize. Simply follow the installation instructions above to get started. Once the project is up and running, you can customize the template to suit your needs.
+- [ ] Switch to .NET 8
 
 ## Contributing
 

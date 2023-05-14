@@ -1,8 +1,35 @@
-﻿.container h1, h2, h3, h4 {
+﻿/* Dark mode by default */
+body {
+    background-color: #1d1e20;
+}
+
+a {
+    color: lightblue;
+}
+
+.page {
+    color: white;
+}
+/* End dark mode */
+
+.container h1, h2, h3, h4 {
     color: #F87F11;
 }
 
-@media (prefers-color-scheme: light) {
+/* Light mode */
+@media screen and (prefers-color-scheme: light) {
+
+    body {
+        background-color: #eef0f1;
+    }
+
+    a {
+        color: darkblue;
+    }
+
+    .page {
+        color: black;
+    }
 
     html:not([data-scroll='0']) header {
         position: fixed;
@@ -15,28 +42,5 @@
     html:not([data-scroll='0']) .topnav {
         /* This box-shadow will help sell the floating effect */
         box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
-    }
-
-    a {
-        color: darkblue;
-    }
-
-    body {
-        background-color: #eef0f1;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-
-    .page {
-        color: white;
-    }
-
-    a {
-        color: lightblue;
-    }
-
-    body {
-        background-color: #1d1e20;
     }
 }

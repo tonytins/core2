@@ -1,30 +1,30 @@
 @if (string.IsNullOrEmpty(PreviousPage))
 {
-    <PageTitle>@Title - @GlobalConsts.SITE_NAME</PageTitle>
+    <PageTitle>@Name - @GlobalConsts.SITE_NAME</PageTitle>
 }
 else
 {
-    <PageTitle>@Title - @PreviousPage - @GlobalConsts.SITE_NAME</PageTitle>
+    <PageTitle>@Name - @PreviousPage - @GlobalConsts.SITE_NAME</PageTitle>
 }
 
 <HeadContent>
     <meta content="article" property="og:type" data-rh="true">
-    <meta Title="title" content="@Title - @GlobalConsts.SITE_NAME" property="og:title" data-rh="true">
+    <meta Title="title" content="@Name - @GlobalConsts.SITE_NAME" property="og:title" data-rh="true">
 </HeadContent>
 <div>
     @if (Heading)
     {
-        <h2>@Title</h2>
+        <h2>@Name</h2>
     }
 </div>
 
 @code {
 
     /// <summary>
-    /// The Title of the current page.
+    /// The Name of the current page.
     /// </summary>
     [Parameter, EditorRequired]
-    public string? Title { get; set; } = string.Empty;
+    public string? Name { get; set; } = string.Empty;
 
     /// <summary>
     /// Determines whether or not to display the heading.

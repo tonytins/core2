@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "Tony Bark",
   "classifications": [ "Web", "Blazor WebAssembly" ],
-  "identity": "TonyBark.Core.Template",
+  "identity": "TonyBark.Core2.Template",
   "name": "Core 2 Template",
-  "shortName": "core"
+  "shortName": "core2"
 }

@@ -83,7 +83,7 @@ header {
         float: left;
         color: white;
         text-align: center;
-        padding: 10px 16px;
+        padding: 9px 16px;
         text-decoration: none;
         /* font-weight: bold; */
         font-size: 17px;
@@ -107,7 +107,7 @@ header {
         float: left;
         color: white;
         text-align: center;
-        padding: 10px;
+        padding: 9px;
         height: inherit;
         background: url("../images/logo-white.svg") no-repeat;
     }
